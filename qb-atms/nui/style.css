@@ -22,7 +22,7 @@ body {
 #cardsDisplay::-webkit-scrollbar
 {
     width: 10px;
-    background-color: rgba(0, 0, 0, 0)
+    background-color: rgba(5, 22, 122, 0)
 }
 
 #cardsDisplay::-webkit-scrollbar-thumb
@@ -32,12 +32,13 @@ body {
 }
 
 #cardSelector {
-    background-color: #444444;
+    background: linear-gradient(#151515,#0027ec);
+    opacity: 0.9;
     border-radius: 10px;
 }
 
 #pinContainer {
-    background-color: #444444;
+    background: linear-gradient(#151515,#0027ec);
     border-radius: 10px;
 }
 
@@ -51,7 +52,7 @@ body {
 
 /* atm home screen */
 #ATMContainer {
-    background: #444444 !important;
+    background: #1f04a4 !important;
     border-radius: 10px;
     min-height:800px;
     max-height:800px;
@@ -189,7 +190,7 @@ a:hover {
 
 .btn-secondary.focus,
 .btn-secondary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(29, 6, 181, 0.963);
 }
 
 .btn-secondary.disabled,
